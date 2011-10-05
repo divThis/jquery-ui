@@ -1,0 +1,41 @@
+/*
+ * jQuery UI Rating @VERSION
+ *
+ * Copyright 2011, AUTHORS.txt (http: //jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http: //jquery.org/license
+ *
+ * http: //docs.jquery.com/UI/Rating#theming
+ */
+.ui-rating{
+	height: 16px;
+}
+.ui-rating .ui-rating-star{
+    width: 16px;
+    height: 16px;
+    font-size: 2px;
+    float: left;
+    text-decoration: none;
+    vertical-align: bottom;
+    background-image: url(images/star.gif);
+    background-repeat: no-repeat;
+	background-position: 0 -32px;
+}
+.ui-rating-current .ui-rating-full{
+    background-position: 0 0;
+}
+.ui-rating-current .ui-rating-partial{
+    background-position: 0 -16px;
+}
+.ui-rating .ui-rating-cancel-empty{
+    background-position: 0 -64px;
+}
+.ui-rating .ui-rating-cancel-full{
+    background-position: 0 -80px;
+}
+.ui-rating .ui-rating-hover{
+    background-position: 0 -48px;
+}
+.ui-rating-cancel-empty.ui-rating-hover{
+    background-position: 0 -80px;
+}
